@@ -103,7 +103,7 @@ h1 {
     float: right;
     width: 230px;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .sidebar .section h4 {
@@ -125,18 +125,17 @@ h1 {
     background: no-repeat 0px 2px;
 }
 
-.contact.address { background-image: url("images/ico-address.png"); background-position: 0px 3px; }
-.contact.phone { background-image: url("images/ico-phone.png"); background-position: 0px 3px; }
-.contact.mail { background-image: url("images/ico-email.png"); background-position: 0px 5px; }
-.contact.linkedin { background-image: url("images/ico-linkedin.png"); }
-.contact.github { background-image: url("images/ico-github.png"); }
+.contact.address { background-image: url("images/place_icon.svg"); background-position: -4px 0px; }
+.contact.mail { background-image: url("images/email_icon.svg"); background-position: -3px 0px; }
+.contact.linkedin { background-image: url("images/linkedin_icon.svg"); background-position: -3px 0px; }
+.contact.github { background-image: url("images/github_icon.svg"); background-position: -3px 0px; }
 
 .sidebar .pdf {
     float: left;
-    background: url("images/ico-pdf.png") no-repeat;
-    width: 48px;
-    height: 62px;
-    margin: 10px 0px 20px 100px;
+    background: url("images/pdf_icon.svg") no-repeat;
+    width: 75px;
+    height: 92px;
+    margin: 0px 0px 0px 88px;
 }
 .sidebar .pdf:hover {
     text-decoration: none;
