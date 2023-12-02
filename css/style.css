@@ -221,7 +221,7 @@ h1 {
 
 .titlebox h5 {
     font-size: 16px;
-    width: 60%;
+    width: 50%;
     margin-left: 15px;
     float: left;
     color: #34495e;
@@ -246,7 +246,7 @@ h1 {
 }
 
 .content .timeline {
-    background: url("images/timeline_v2.png") no-repeat 522px -108px;
+    background: url("images/timeline_v2.png") no-repeat 522px -113px;
     padding-right: 35px;
 }
 
