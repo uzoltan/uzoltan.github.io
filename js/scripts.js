@@ -5,7 +5,9 @@ function reveal(cls, tokens) {
         var regex = new RegExp(' \\|' + token[0] + '\\| ', 'g');
         field = field.replace(regex, token[1]);
     }
+
     document.getElementsByClassName(cls)[0].innerHTML = field;
+    document.body.style.zoom="120%"
 }
 
 window.onload = function() {
