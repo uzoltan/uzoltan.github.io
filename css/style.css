@@ -134,7 +134,7 @@ h1 {
     background: no-repeat 0 2px;
 }
 
-.contact.address { background-image: url("images/place_icon.svg"); background-position: -4px 0; }
+.contact.address { background-image: url("images/place_icon.svg"); background-position: -5px 0; }
 .contact.mail { background-image: url("images/email_icon.svg"); background-position: -3px 0; }
 .contact.linkedin { background-image: url("images/linkedin_icon.svg"); background-position: -3px 0; }
 .contact.github { background-image: url("images/github_icon.svg"); background-position: -3px 0; }
@@ -252,5 +252,13 @@ h1 {
 
 .content .timeline p {
     padding-bottom: 0;
+}
+
+@media print
+{
+    .no-print, .no-print * { display:none; visibility: hidden !important; }
+    body, html, .fill { height: 480mm; }
+    .pagebreak { page-break-after: always}
+    .row { padding-left: 0px }
 }
 
