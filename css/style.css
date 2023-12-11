@@ -12,6 +12,10 @@ html, body {
   src: url(fonts/SpaceGrotesk-SemiBold.ttf);
 }
 @font-face {
+  font-family: spaceGrotestMedium;
+  src: url(fonts/SpaceGrotesk-Medium.ttf);
+}
+@font-face {
   font-family: ubuntuMedium;
   src: url(fonts/Ubuntu-Medium.ttf);
 }
@@ -243,9 +247,9 @@ h1 {
 
 .content .technologies {
     margin-top: 10px;
-    background: url("images/ico-technologies.png") no-repeat 25px 2px;
+    background: url("images/tech_stack_icon.svg") no-repeat 25px 2px;
     text-indent: 25px;
-    font-family: ralewayMedium, serif;
+    font-family: spaceGrotestMedium, serif;
 }
 
 .content .timeline {
