@@ -96,7 +96,7 @@ h1 {
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
-    margin: 40px;
+    margin: 40px 0px 25px 37px;
 
         -ms-transition:     -ms-transform .4s ease-in-out;
     -webkit-transition: -webkit-transform .4s ease-in-out;
@@ -134,10 +134,11 @@ h1 {
     background: no-repeat 0 2px;
 }
 
-.contact.address { background-image: url("images/place_icon.svg"); background-position: -5px 0; }
-.contact.mail { background-image: url("images/email_icon.svg"); background-position: -3px 0; }
-.contact.linkedin { background-image: url("images/linkedin_icon.svg"); background-position: -3px 0; }
-.contact.github { background-image: url("images/github_icon.svg"); background-position: -3px 0; }
+.contact.phone { background-image: url("images/phone_icon.svg"); background-position: -3px 0; }
+.contact.address { background-image: url("images/place_icon.svg"); background-position: -3px 0; }
+.contact.mail { background-image: url("images/email_icon.svg"); background-position: -0px 0; }
+.contact.linkedin { background-image: url("images/linkedin_icon.svg"); background-position: -0px 0; }
+.contact.github { background-image: url("images/github_icon.svg"); background-position: -0px 0; }
 
 .sidebar .pdf {
     float: left;
@@ -153,7 +154,9 @@ h1 {
 @media print
 {
     .no-print, .no-print * { display:none; visibility: hidden !important; }
-    body, html, .fill { height: 100%; }
+    body, html, .fill { height: 480mm; }
+    .pagebreak { page-break-after: always}
+    .row { padding-left: 0px }
 }
 
 @media screen
@@ -252,13 +255,5 @@ h1 {
 
 .content .timeline p {
     padding-bottom: 0;
-}
-
-@media print
-{
-    .no-print, .no-print * { display:none; visibility: hidden !important; }
-    body, html, .fill { height: 480mm; }
-    .pagebreak { page-break-after: always}
-    .row { padding-left: 0px }
 }
 
